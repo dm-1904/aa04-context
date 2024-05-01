@@ -1,5 +1,6 @@
 function allTheArgs(func, ...args) {
-  // Your code here 
+  let word = ''
+  return func.bind(word, ...args)
 }
 
 /*****************************************************************************/
