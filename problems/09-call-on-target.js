@@ -1,7 +1,7 @@
 function callOnTarget(func, obj1, obj2) {
   return func.call(obj1, obj2)
 }
-
+//obj1 is the context of func because it is passed in first on line 2
 
 /*****************************************************************************/
 /***************** DO NOT MODIFY ANYTHING UNDER THIS LINE ********************/

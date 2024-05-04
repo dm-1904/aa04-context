@@ -7,8 +7,8 @@ function changeContext(func, obj) {
 
   }
 
-
-
+//func will work as thought it was created in the context of obj
+// const bound is binding the function extractName to the instance of a Class.
 
 
 class Person {
